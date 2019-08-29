@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zebra/origin/static/css/main.59910678.chunk.css",
+    "main.js": "/zebra/origin/static/js/main.97b648d3.chunk.js",
+    "main.js.map": "/zebra/origin/static/js/main.97b648d3.chunk.js.map",
+    "runtime~main.js": "/zebra/origin/static/js/runtime~main.f6f8c1cf.js",
+    "runtime~main.js.map": "/zebra/origin/static/js/runtime~main.f6f8c1cf.js.map",
+    "static/js/2.71a66cf6.chunk.js": "/zebra/origin/static/js/2.71a66cf6.chunk.js",
+    "static/js/2.71a66cf6.chunk.js.map": "/zebra/origin/static/js/2.71a66cf6.chunk.js.map",
+    "index.html": "/zebra/origin/index.html",
+    "precache-manifest.0d194e353ee96826900dda1ad10b4203.js": "/zebra/origin/precache-manifest.0d194e353ee96826900dda1ad10b4203.js",
+    "service-worker.js": "/zebra/origin/service-worker.js",
+    "static/css/main.59910678.chunk.css.map": "/zebra/origin/static/css/main.59910678.chunk.css.map"
+  }
+}

@@ -64,8 +64,12 @@ html {
     border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #fff;
 }
 
-
+.navbar-default .navbar-brand{color:#fff}
+.navbar-default .navbar-brand:hover {
+	color: #333;
+	background-color: #F0F0F0;
+}
 
