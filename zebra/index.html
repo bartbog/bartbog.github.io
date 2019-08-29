@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Bootstrap Template With Sticky Menu</title>
+    <meta name="description" content="Simplified Bootstrap template with sticky menu">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sticky-menu.css" rel="stylesheet">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Welcome</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#origin">Origin puzzle</a>
+                    </li>
+                    
+                </ul>
+            </div>	<!-- .navbar-collapse -->
+        </div>		<!-- .container -->
+    </nav>
+    <!-- Welcome   -->
+    <section id="welcome" class="odd-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>User-oriented Solving and Explaining of Natural Language Logic Grid Puzzles</h1>
+                    <p>On this page, we illustrate by means of some simple puzzles how we our tool for explaining logic grid puzzles works. This page is still under construction. More puzzles will be added later. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="origin" class="even-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Origin puzzle</h1>
+					<p>This puzzle, taken from the book "Puzzle Baron’s logic puzzles" concerns people's state of origin, current city of domicile, and age. The clues are:
+<ul>
+<li>Mattie is 113 years old,</li>
+                        <li>The person who lives in Tehama is a native of either Kansas or Oregon",</li>
+                        <li>The Washington native is 1 year older than Ernesto",</li>
+                        <li>Roxanne is 2 years younger than the Kansas native",</li>
+                        <li>The person who lives in Zearing isn't a native of Alaska",</li>
+                        <li>The person who is 111 years old doesn't live in Plymouth",</li>
+                        <li>The Oregon native is either Zachary or the person who lives in Tehama",</li>
+                        <li>The person who lives in Shaver Lake is 1 year younger than Roxanne",</li>
+                        <li>The centenarian who lives in Plymouth isn't a native of Alaska",</li>
+                        <li>Of the person who lives in Tehama and Mattie, one is a native of Alaska and the other is from Kansas.</li>
+</ul></p>
+<h2>Input</h2>
+<p>The input of our system consists of these clues, combined with the following lexicon (the automated lexicon building does not yet work fully automatically):</p>
+<pre>
+noun([year], [years]),
+noun([person], [persons]),
+noun([native], [natives]),
+noun([centenarian], [centenarians]),
+pn([mattie]),
+pn([tehama]),
+pn([kansas]),
+pn([oregon]),
+pn([washington]),
+pn([ernesto]),
+pn([roxanne]),
+pn([zearing]),
+pn([alaska]),
+pn([plymouth]),
+pn([zachary]),
+pn([shaver, lake]),
+tvPrep([lives], [in], [live], [lived]),
+copGap([], [old]),
+prep([of]),
+prep([from]),
+comp(higher, [older, than]),
+comp(lower, [younger, than])
+</pre>
+<h2>IDP code </h2>
+<p>Our tool then generates the following translation of each of the clues in the IDP language (where ! is a universal quantifier, ? is an existential quantifier, &amp; is conjunction, | is disjunction and ~ is negation )</p>
+<pre>
+// Mattie is 113 years old
+is_old(mattie,113).
+
+// The person who lives in Tehama is a native of either Kansas or Oregon
+?a [native] b [native]: lives_in(a,tehama) & (of(b,kansas) | of(b,oregon)) & b = a.
+
+// The Washington native is 1 year older than Ernesto
+?c [native] d [year] e [year]: is_old(ernesto,d) & e = d+1 & is_old(c,e) & of(c,washington).
+
+// Roxanne is 2 years younger than the Kansas native
+?f [year] g [native] h [year]: is_old(g,f) & of(g,kansas) & h = f-2 & is_old(roxanne,h).
+
+// The person who lives in Zearing isn't a native of Alaska
+?i [native]: lives_in(i,zearing) & ~ (?j [native]: of(j,alaska) & j = i).
+
+// The person who is 111 years old doesn't live in Plymouth
+?k [native]: is_old(k,111) & ~ lives_in(k,plymouth).
+
+// The Oregon native is either Zachary or the person who lives in Tehama
+?l [native]: (zachary = l | (?m [native]: lives_in(m,tehama) & m = l)) & of(l,oregon).
+
+// The person who lives in Shaver Lake is 1 year younger than Roxanne
+?n [native] o [year] p [year]: lives_in(n,shaver_lake) & is_old(roxanne,o) & p = o-1 & is_old(n,p).
+
+// The centenarian who lives in Plymouth isn't a native of Alaska
+?q [native]: lives_in(q,plymouth) & ~ (?r [native]: of(r,alaska) & r = q).
+
+// Of the person who lives in Tehama and Mattie, one is a native of Alaska and the other is from Kansas
+?s [native]: lives_in(s,tehama) & ~ (s = mattie) & ((?t [native]: of(t,alaska) & t = s & from(mattie,kansas)) | (?u [native]: of(u,alaska) & u = mattie & from(s,kansas))).
+</pre>
+<p>The complete runnable IDP files for solving and explanation-generation can be obtained <a href="TODOOOOOOO">here</a>.</p>
+<p>These clues are combined with the implicit constraints underlying logic grid puzzles to solve the puzzle and finally to generate explanations. 
+The interactive demonstrations of the explanations underlying this puzzle can be found <a href="./medicine/">following this link</a>.
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/sticky-menu.js"></script>
+
+</body>
+
+</html>
