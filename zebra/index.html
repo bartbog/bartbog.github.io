@@ -1,64 +1,177 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="https://html5-templates.com/" />
-    <title>ZebraTutor</title>
-    <meta name="description" content="Simplified Bootstrap template with sticky menu">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/sticky-menu.css" rel="stylesheet">
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle menu</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Welcome</a>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
 
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#origin">Origin puzzle</a>
-                    </li>
-					<li>
-                        <a class="page-scroll" href="#tutorial">Tutorial puzzle</a>
-					</li>
-                    
-                </ul>
-            </div>	<!-- .navbar-collapse -->
-        </div>		<!-- .container -->
-    </nav>
-    <!-- Welcome   -->
-    <section id="welcome" class="odd-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>User-oriented Solving and Explaining of Natural Language Logic Grid Puzzles</h1>
-                    <p>On this page, we illustrate by means of some simple puzzles how our tool (ZebraTutor) for explaining logic grid puzzles works. This page is still under construction. More puzzles will be added later. </p>
-                </div>
-            </div>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+    <title>ZebraTutor</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#origin">Origin Puzzle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#tutorial">Tutorial Puzzle</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>-->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0"> <span class="text-primary">ZebraTutor</span>
+        </h1>
+        <div class="subheading mb-5">From the paper <a href="">User-oriented Solving and Explaining of Natural Language Logic Grid Puzzles</a>
         </div>
+        <p class="lead mb-5">On this page, we illustrate by means of some simple puzzles how our tool (ZebraTutor) for explaining logic grid puzzles works. This page is still under construction. More puzzles will be added later.
+      </div>
     </section>
 
-    <!-- About -->
+ <!--   <hr class="m-0">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6" >
-    				<section  id="origin" class="even-section">
-                    <h1>Origin puzzle</h1>
-					<p>This puzzle, taken from the book "Puzzle Baron’s logic puzzles" concerns people's state of origin, current city of domicile, and age. The clues are:
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Colorado Boulder</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science - Web Development Track</div>
+            <p>GPA: 3.23</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2006 - May 2010</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">James Buchanan High School</h3>
+            <div class="subheading mb-3">Technology Magnet Program</div>
+            <p>GPA: 3.56</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2002 - May 2006</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-less"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-grunt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mobile-First, Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teams</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0"> -->
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="origin">
+      <div class="w-100">
+        <h2 class="mb-5">Origin puzzle</h2>
+        <p>This puzzle, taken from the book "Puzzle Baron’s logic puzzles" concerns people's state of origin, current city of domicile, and age. The clues are:
 <ul>
 <li>Mattie is 113 years old,</li>
                         <li>The person who lives in Tehama is a native of either Kansas or Oregon",</li>
@@ -71,75 +184,77 @@
                         <li>The centenarian who lives in Plymouth isn't a native of Alaska",</li>
                         <li>Of the person who lives in Tehama and Mattie, one is a native of Alaska and the other is from Kansas.</li>
 </ul></p>
-<h2>Input</h2>
+<h3 class="mb-0">Input</h3>
 <p>The input of our system consists of these clues, combined with the following lexicon (the automated lexicon building does not yet work fully automatically):</p>
 <pre>
-noun([year], [years]),
-noun([person], [persons]),
-noun([native], [natives]),
-noun([centenarian], [centenarians]),
-pn([mattie]),
-pn([tehama]),
-pn([kansas]),
-pn([oregon]),
-pn([washington]),
-pn([ernesto]),
-pn([roxanne]),
-pn([zearing]),
-pn([alaska]),
-pn([plymouth]),
-pn([zachary]),
-pn([shaver, lake]),
-tvPrep([lives], [in], [live], [lived]),
-copGap([], [old]),
-prep([of]),
-prep([from]),
-comp(higher, [older, than]),
-comp(lower, [younger, than])
+	noun([year], [years]),
+	noun([person], [persons]),
+	noun([native], [natives]),
+	noun([centenarian], [centenarians]),
+	pn([mattie]),
+	pn([tehama]),
+	pn([kansas]),
+	pn([oregon]),
+	pn([washington]),
+	pn([ernesto]),
+	pn([roxanne]),
+	pn([zearing]),
+	pn([alaska]),
+	pn([plymouth]),
+	pn([zachary]),
+	pn([shaver, lake]),
+	tvPrep([lives], [in], [live], [lived]),
+	copGap([], [old]),
+	prep([of]),
+	prep([from]),
+	comp(higher, [older, than]),
+	comp(lower, [younger, than])
 </pre>
-<h2>IDP code </h2>
+<h3 class="mb-0">IDP code </h3 >
 <p>Our tool then generates the following translation of each of the clues in the IDP language (where ! is a universal quantifier, ? is an existential quantifier, &amp; is conjunction, | is disjunction and ~ is negation )</p>
 <pre>
-// Mattie is 113 years old
-is_old(mattie,113).
+	// Mattie is 113 years old
+	is_old(mattie,113).
 
-// The person who lives in Tehama is a native of either Kansas or Oregon
-?a [native] b [native]: lives_in(a,tehama) & (of(b,kansas) | of(b,oregon)) & b = a.
+	// The person who lives in Tehama is a native of either Kansas or Oregon
+	?a [native] b [native]: lives_in(a,tehama) & (of(b,kansas) | of(b,oregon)) & b = a.
 
-// The Washington native is 1 year older than Ernesto
-?c [native] d [year] e [year]: is_old(ernesto,d) & e = d+1 & is_old(c,e) & of(c,washington).
+	// The Washington native is 1 year older than Ernesto
+	?c [native] d [year] e [year]: is_old(ernesto,d) & e = d+1 & is_old(c,e) & of(c,washington).
 
-// Roxanne is 2 years younger than the Kansas native
-?f [year] g [native] h [year]: is_old(g,f) & of(g,kansas) & h = f-2 & is_old(roxanne,h).
+	// Roxanne is 2 years younger than the Kansas native
+	?f [year] g [native] h [year]: is_old(g,f) & of(g,kansas) & h = f-2 & is_old(roxanne,h).
 
-// The person who lives in Zearing isn't a native of Alaska
-?i [native]: lives_in(i,zearing) & ~ (?j [native]: of(j,alaska) & j = i).
+	// The person who lives in Zearing isn't a native of Alaska
+	?i [native]: lives_in(i,zearing) & ~ (?j [native]: of(j,alaska) & j = i).
 
-// The person who is 111 years old doesn't live in Plymouth
-?k [native]: is_old(k,111) & ~ lives_in(k,plymouth).
+	// The person who is 111 years old doesn't live in Plymouth
+	?k [native]: is_old(k,111) & ~ lives_in(k,plymouth).
 
-// The Oregon native is either Zachary or the person who lives in Tehama
-?l [native]: (zachary = l | (?m [native]: lives_in(m,tehama) & m = l)) & of(l,oregon).
+	// The Oregon native is either Zachary or the person who lives in Tehama
+	?l [native]: (zachary = l | (?m [native]: lives_in(m,tehama) & m = l)) & of(l,oregon).
 
-// The person who lives in Shaver Lake is 1 year younger than Roxanne
-?n [native] o [year] p [year]: lives_in(n,shaver_lake) & is_old(roxanne,o) & p = o-1 & is_old(n,p).
+	// The person who lives in Shaver Lake is 1 year younger than Roxanne
+	?n [native] o [year] p [year]: lives_in(n,shaver_lake) & is_old(roxanne,o) & p = o-1 & is_old(n,p).
 
-// The centenarian who lives in Plymouth isn't a native of Alaska
-?q [native]: lives_in(q,plymouth) & ~ (?r [native]: of(r,alaska) & r = q).
+	// The centenarian who lives in Plymouth isn't a native of Alaska
+	?q [native]: lives_in(q,plymouth) & ~ (?r [native]: of(r,alaska) & r = q).
 
-// Of the person who lives in Tehama and Mattie, one is a native of Alaska and the other is from Kansas
-?s [native]: lives_in(s,tehama) & ~ (s = mattie) & ((?t [native]: of(t,alaska) & t = s & from(mattie,kansas)) | (?u [native]: of(u,alaska) & u = mattie & from(s,kansas))).
+	// Of the person who lives in Tehama and Mattie, one is a native of Alaska and the other is from Kansas
+	?s [native]: lives_in(s,tehama) & ~ (s = mattie) & ((?t [native]: of(t,alaska) & t = s & from(mattie,kansas)) | (?u [native]: of(u,alaska) & u = mattie & from(s,kansas))).
 </pre>
 <p>The complete runnable IDP files for solving and explanation-generation can be obtained <a href="./origin/idp.zip">here</a>.</p>
 <p>These clues are combined with the implicit constraints underlying logic grid puzzles to solve the puzzle and finally to generate explanations. 
-The interactive demonstrations of the explanations underlying this puzzle can be found <a href="./origin/">following this link</a>.
-				</section>
-                </div>
-            
-                <div class="col-lg-6">
-    				<section  id="tutorial" class="even-section">
-					<h1>Tutorial puzzle</h1>
-					<p>This puzzle is the tutorial taken from the website <a href="http://logicgridpuzzles.com/puzzles/logic_tutorial.php">logicgridpuzzles.com</a>. The puzzle is about people, their salary, the color of their house, and the medicin they take for their heart condition. The clues are given below. Strike-through and italic text means that we had to make some small replacements to help the parsing. 
+The interactive demonstrations of the explanations underlying this puzzle can be found <a href="./origin/">following this link</a>.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+ <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="tutorial">
+      <div class="w-100">
+        <h2 class="mb-5">Tutorial puzzle</h2>
+<p>This puzzle is the tutorial taken from the website <a href="http://logicgridpuzzles.com/puzzles/logic_tutorial.php">logicgridpuzzles.com</a>. The puzzle is about people, their salary, the color of their house, and the medicin they take for their heart condition. The clues are given below. Strike-through and italic text means that we had to make some small replacements to help the parsing. 
 <ul>
 <li>"The 4 people were Tatum, the patient who was prescribed enalapril, the employee <strike>with the 54000 salary</strike><it>who earns 54000</it>, and the owner of the purple house</li>
 <li>The patient who was prescribed enalapril is not heather</li>
@@ -152,34 +267,34 @@ The interactive demonstrations of the explanations underlying this puzzle can be
 <li>The owner of the lime house was prescribed enalapril for their heart condition</li>
 <li>The employee <strike>with the 144000 salary</strike><it>who earns 144000</it> was prescribed benazepril for their heart condition</li>
 </ul></p>
-<h2>Input</h2>
+<h3 class=mb-0>Input</h2>
 <p>The input of our system consists of these clues, combined with the following lexicon (the automated lexicon building does not yet work fully automatically):</p>
 <pre>
- noun([patient], [patients]),
-noun([person], [people]),
-noun([year], [years]),
-noun([employee], [employees]),
-noun([salary], [salaries]),
-noun([owner], [owners]),
-pn([tatum]),
-pn([annabelle]),
-pn([heather]),
-pn([kassidy]),
-pn([benazepril]),
-pn([enalapril]),
-pn([ramipril]),
-pn([fosinopril]),
-prep([of]),
-ppn([the, blue, house]),
-ppn([the, lime, house]),
-ppn([the, cyan, house]),
-ppn([the, purple, house]),
-tv([owns], [own]),
-tvGap([earns], [per, year], [earn]),
-tvGap([was, prescribed], [for, their, heart, condition], [prescribe]),
-tvPrep([lives], [in], [live], [lived])
+	noun([patient], [patients]),
+	noun([person], [people]),
+	noun([year], [years]),
+	noun([employee], [employees]),
+	noun([salary], [salaries]),
+	noun([owner], [owners]),
+	pn([tatum]),
+	pn([annabelle]),
+	pn([heather]),
+	pn([kassidy]),
+	pn([benazepril]),
+	pn([enalapril]),
+	pn([ramipril]),
+	pn([fosinopril]),
+	prep([of]),
+	ppn([the, blue, house]),
+	ppn([the, lime, house]),
+	ppn([the, cyan, house]),
+	ppn([the, purple, house]),
+	tv([owns], [own]),
+	tvGap([earns], [per, year], [earn]),
+	tvGap([was, prescribed], [for, their, heart, condition], [prescribe]),
+	tvPrep([lives], [in], [live], [lived])
 </pre>
-<h2>IDP code </h2>
+<h3 class=mb-0>IDP code </h2>
 <p>Our tool then generates the following translation of each of the clues in the IDP language (where ! is a universal quantifier, ? is an existential quantifier, &amp; is conjunction, | is disjunction and ~ is negation )</p>
 <pre>
     // The 4 people were tatum, the patient who was prescribed enalapril, the employee who earns 54000, and the owner of the purple house
@@ -212,24 +327,57 @@ tvPrep([lives], [in], [live], [lived])
 <p>The complete runnable IDP files for solving and explanation-generation can be obtained <a href="./tutorial/idp.zip">here</a>.</p>
 <p>These clues are combined with the implicit constraints underlying logic grid puzzles to solve the puzzle and finally to generate explanations. 
 The interactive demonstrations of the explanations underlying this puzzle can be found <a href="./tutorial/">following this link</a>.
-					</section>
-                </div>
-            </div>
-        </div>
+
+
+</div>
     </section>
 
-	
-	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
-	
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!--
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Google Analytics Certified Developer</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Mobile Web Specialist - Google Certification</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2<sup>nd</sup>
+            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
+            Place - James Buchanan High School - Hackathon 2006</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            3<sup>rd</sup>
+            Place - James Buchanan High School - Hackathon 2005</li>
+        </ul>
+      </div>
+    </section>-->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+  </div>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/sticky-menu.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
 </body>
 
