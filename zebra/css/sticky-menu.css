@@ -45,15 +45,16 @@ html {
 .odd-section {
     height: auto;
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     text-align: center;
     background: #fff;
 }
 .even-section {
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     text-align: center;
     background: #FF6600;
+    background: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
@@ -76,4 +77,15 @@ html {
 it {
     font-style:italic;
 
+}
+
+h1{
+ background-color:#FF6600;
+}
+
+ul{
+	text-align:left;
+}
+pre{
+	text-align:left;
 }

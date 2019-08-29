@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://html5-templates.com/" />
-    <title>Bootstrap Template With Sticky Menu</title>
+    <title>ZebraTutor</title>
     <meta name="description" content="Simplified Bootstrap template with sticky menu">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sticky-menu.css" rel="stylesheet">
@@ -45,17 +45,18 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>User-oriented Solving and Explaining of Natural Language Logic Grid Puzzles</h1>
-                    <p>On this page, we illustrate by means of some simple puzzles how we our tool for explaining logic grid puzzles works. This page is still under construction. More puzzles will be added later. </p>
+                    <p>On this page, we illustrate by means of some simple puzzles how our tool (ZebraTutor) for explaining logic grid puzzles works. This page is still under construction. More puzzles will be added later. </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About -->
-    <section id="origin" class="even-section">
+
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-6" >
+    				<section  id="origin" class="even-section">
                     <h1>Origin puzzle</h1>
 					<p>This puzzle, taken from the book "Puzzle Baron’s logic puzzles" concerns people's state of origin, current city of domicile, and age. The clues are:
 <ul>
@@ -132,18 +133,12 @@ is_old(mattie,113).
 <p>The complete runnable IDP files for solving and explanation-generation can be obtained <a href="./origin/idp.zip">here</a>.</p>
 <p>These clues are combined with the implicit constraints underlying logic grid puzzles to solve the puzzle and finally to generate explanations. 
 The interactive demonstrations of the explanations underlying this puzzle can be found <a href="./origin/">following this link</a>.
+				</section>
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-<!-- About -->
-    <section id="tutorial" class="odd-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Tutorial puzzle</h1>
+            
+                <div class="col-lg-6">
+    				<section  id="tutorial" class="even-section">
+					<h1>Tutorial puzzle</h1>
 					<p>This puzzle is the tutorial taken from the website <a href="http://logicgridpuzzles.com/puzzles/logic_tutorial.php">logicgridpuzzles.com</a>. The puzzle is about people, their salary, the color of their house, and the medicin they take for their heart condition. The clues are given below. Strike-through and italic text means that we had to make some small replacements to help the parsing. 
 <ul>
 <li>"The 4 people were Tatum, the patient who was prescribed enalapril, the employee <strike>with the 54000 salary</strike><it>who earns 54000</it>, and the owner of the purple house</li>
@@ -217,6 +212,7 @@ tvPrep([lives], [in], [live], [lived])
 <p>The complete runnable IDP files for solving and explanation-generation can be obtained <a href="./tutorial/idp.zip">here</a>.</p>
 <p>These clues are combined with the implicit constraints underlying logic grid puzzles to solve the puzzle and finally to generate explanations. 
 The interactive demonstrations of the explanations underlying this puzzle can be found <a href="./tutorial/">following this link</a>.
+					</section>
                 </div>
             </div>
         </div>
