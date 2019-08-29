@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zebra/tutorial/static/css/main.59910678.chunk.css",
+    "main.js": "/zebra/tutorial/static/js/main.f45e6816.chunk.js",
+    "main.js.map": "/zebra/tutorial/static/js/main.f45e6816.chunk.js.map",
+    "runtime~main.js": "/zebra/tutorial/static/js/runtime~main.fa5c39d3.js",
+    "runtime~main.js.map": "/zebra/tutorial/static/js/runtime~main.fa5c39d3.js.map",
+    "static/js/2.71a66cf6.chunk.js": "/zebra/tutorial/static/js/2.71a66cf6.chunk.js",
+    "static/js/2.71a66cf6.chunk.js.map": "/zebra/tutorial/static/js/2.71a66cf6.chunk.js.map",
+    "index.html": "/zebra/tutorial/index.html",
+    "precache-manifest.56d428c16fbc62774bbc36fa7572a5b0.js": "/zebra/tutorial/precache-manifest.56d428c16fbc62774bbc36fa7572a5b0.js",
+    "service-worker.js": "/zebra/tutorial/service-worker.js",
+    "static/css/main.59910678.chunk.css.map": "/zebra/tutorial/static/css/main.59910678.chunk.css.map"
+  }
+}
