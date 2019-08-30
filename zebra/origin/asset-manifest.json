@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/zebra/origin/static/css/main.88f502c3.chunk.css",
-    "main.js": "/zebra/origin/static/js/main.016938cf.chunk.js",
-    "main.js.map": "/zebra/origin/static/js/main.016938cf.chunk.js.map",
+    "main.js": "/zebra/origin/static/js/main.2a82de38.chunk.js",
+    "main.js.map": "/zebra/origin/static/js/main.2a82de38.chunk.js.map",
     "runtime~main.js": "/zebra/origin/static/js/runtime~main.a93eea4a.js",
     "runtime~main.js.map": "/zebra/origin/static/js/runtime~main.a93eea4a.js.map",
     "static/js/2.ad737aed.chunk.js": "/zebra/origin/static/js/2.ad737aed.chunk.js",
     "static/js/2.ad737aed.chunk.js.map": "/zebra/origin/static/js/2.ad737aed.chunk.js.map",
     "index.html": "/zebra/origin/index.html",
-    "precache-manifest.cc47c8d7ef4d6f1c1dff05cf146ca5e1.js": "/zebra/origin/precache-manifest.cc47c8d7ef4d6f1c1dff05cf146ca5e1.js",
+    "precache-manifest.edc1d952e86a96076251b46c423111f9.js": "/zebra/origin/precache-manifest.edc1d952e86a96076251b46c423111f9.js",
     "service-worker.js": "/zebra/origin/service-worker.js",
     "static/css/main.88f502c3.chunk.css.map": "/zebra/origin/static/css/main.88f502c3.chunk.css.map"
   }
