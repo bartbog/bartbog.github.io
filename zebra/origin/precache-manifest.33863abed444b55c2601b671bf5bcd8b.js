@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcfd01ee2ab35632e7ec1f719ad458d6",
+    "revision": "9d0e477c4651bbff79710509fb07b510",
     "url": "/zebra/origin/index.html"
   },
   {
-    "revision": "93cc418a786b6bac13ac",
-    "url": "/zebra/origin/static/css/main.59910678.chunk.css"
+    "revision": "e8fb7f87313f07c8276a",
+    "url": "/zebra/origin/static/css/main.88f502c3.chunk.css"
   },
   {
     "revision": "31989ecb0243373f36bb",
     "url": "/zebra/origin/static/js/2.71a66cf6.chunk.js"
   },
   {
-    "revision": "93cc418a786b6bac13ac",
-    "url": "/zebra/origin/static/js/main.97b648d3.chunk.js"
+    "revision": "e8fb7f87313f07c8276a",
+    "url": "/zebra/origin/static/js/main.dd1b1fc1.chunk.js"
   },
   {
     "revision": "891177c99c8f44844e35",
