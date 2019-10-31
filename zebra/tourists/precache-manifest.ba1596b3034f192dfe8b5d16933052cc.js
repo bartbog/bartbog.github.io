@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a3c77dc504000935f7334fb105eeda8",
+    "revision": "0995a62b85f5f9d5184b0a24da7a9177",
     "url": "/zebra/tourists/index.html"
   },
   {
-    "revision": "9d183a614daf9753dd0a",
+    "revision": "e8a5590eb9eb52748563",
     "url": "/zebra/tourists/static/css/main.88f502c3.chunk.css"
   },
   {
-    "revision": "efb629678e2a2e34fe97",
-    "url": "/zebra/tourists/static/js/2.581f262e.chunk.js"
+    "revision": "8930e64f4a51b72eb4c8",
+    "url": "/zebra/tourists/static/js/2.a4b875e3.chunk.js"
   },
   {
-    "revision": "9d183a614daf9753dd0a",
-    "url": "/zebra/tourists/static/js/main.217314a8.chunk.js"
+    "revision": "e8a5590eb9eb52748563",
+    "url": "/zebra/tourists/static/js/main.5248b0e6.chunk.js"
   },
   {
     "revision": "406d656333f6b80f4562",
