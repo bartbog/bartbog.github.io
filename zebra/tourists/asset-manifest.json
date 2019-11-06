@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/zebra/tourists/static/css/main.88f502c3.chunk.css",
-    "main.js": "/zebra/tourists/static/js/main.5248b0e6.chunk.js",
-    "main.js.map": "/zebra/tourists/static/js/main.5248b0e6.chunk.js.map",
+    "main.css": "/zebra/tourists/static/css/main.de611700.chunk.css",
+    "main.js": "/zebra/tourists/static/js/main.a228eed8.chunk.js",
+    "main.js.map": "/zebra/tourists/static/js/main.a228eed8.chunk.js.map",
     "runtime~main.js": "/zebra/tourists/static/js/runtime~main.79e6194f.js",
     "runtime~main.js.map": "/zebra/tourists/static/js/runtime~main.79e6194f.js.map",
-    "static/js/2.a4b875e3.chunk.js": "/zebra/tourists/static/js/2.a4b875e3.chunk.js",
-    "static/js/2.a4b875e3.chunk.js.map": "/zebra/tourists/static/js/2.a4b875e3.chunk.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/zebra/tourists/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.a3f47644.chunk.js": "/zebra/tourists/static/js/2.a3f47644.chunk.js",
+    "static/js/2.a3f47644.chunk.js.map": "/zebra/tourists/static/js/2.a3f47644.chunk.js.map",
     "index.html": "/zebra/tourists/index.html",
-    "precache-manifest.ba1596b3034f192dfe8b5d16933052cc.js": "/zebra/tourists/precache-manifest.ba1596b3034f192dfe8b5d16933052cc.js",
+    "precache-manifest.42f8d73d3d05d725d1af99fa804c5c9a.js": "/zebra/tourists/precache-manifest.42f8d73d3d05d725d1af99fa804c5c9a.js",
     "service-worker.js": "/zebra/tourists/service-worker.js",
-    "static/css/main.88f502c3.chunk.css.map": "/zebra/tourists/static/css/main.88f502c3.chunk.css.map"
+    "static/css/2.22a7d4ef.chunk.css.map": "/zebra/tourists/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.de611700.chunk.css.map": "/zebra/tourists/static/css/main.de611700.chunk.css.map"
   }
 }
