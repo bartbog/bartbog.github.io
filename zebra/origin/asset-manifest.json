@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/zebra/origin/static/css/main.88f502c3.chunk.css",
-    "main.js": "/zebra/origin/static/js/main.2a82de38.chunk.js",
-    "main.js.map": "/zebra/origin/static/js/main.2a82de38.chunk.js.map",
+    "main.css": "/zebra/origin/static/css/main.de611700.chunk.css",
+    "main.js": "/zebra/origin/static/js/main.ee1bd42e.chunk.js",
+    "main.js.map": "/zebra/origin/static/js/main.ee1bd42e.chunk.js.map",
     "runtime~main.js": "/zebra/origin/static/js/runtime~main.a93eea4a.js",
     "runtime~main.js.map": "/zebra/origin/static/js/runtime~main.a93eea4a.js.map",
-    "static/js/2.ad737aed.chunk.js": "/zebra/origin/static/js/2.ad737aed.chunk.js",
-    "static/js/2.ad737aed.chunk.js.map": "/zebra/origin/static/js/2.ad737aed.chunk.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/zebra/origin/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.a3f47644.chunk.js": "/zebra/origin/static/js/2.a3f47644.chunk.js",
+    "static/js/2.a3f47644.chunk.js.map": "/zebra/origin/static/js/2.a3f47644.chunk.js.map",
     "index.html": "/zebra/origin/index.html",
-    "precache-manifest.edc1d952e86a96076251b46c423111f9.js": "/zebra/origin/precache-manifest.edc1d952e86a96076251b46c423111f9.js",
+    "precache-manifest.0704e2908cb520723992b41f2155d60b.js": "/zebra/origin/precache-manifest.0704e2908cb520723992b41f2155d60b.js",
     "service-worker.js": "/zebra/origin/service-worker.js",
-    "static/css/main.88f502c3.chunk.css.map": "/zebra/origin/static/css/main.88f502c3.chunk.css.map"
+    "static/css/2.22a7d4ef.chunk.css.map": "/zebra/origin/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.de611700.chunk.css.map": "/zebra/origin/static/css/main.de611700.chunk.css.map"
   }
 }
