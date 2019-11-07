@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/zebra/pasta/static/css/main.16ae9124.chunk.css",
+    "main.js": "/zebra/pasta/static/js/main.7b319b78.chunk.js",
+    "main.js.map": "/zebra/pasta/static/js/main.7b319b78.chunk.js.map",
+    "runtime~main.js": "/zebra/pasta/static/js/runtime~main.4635e927.js",
+    "runtime~main.js.map": "/zebra/pasta/static/js/runtime~main.4635e927.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/zebra/pasta/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.29703c03.chunk.js": "/zebra/pasta/static/js/2.29703c03.chunk.js",
+    "static/js/2.29703c03.chunk.js.map": "/zebra/pasta/static/js/2.29703c03.chunk.js.map",
+    "index.html": "/zebra/pasta/index.html",
+    "precache-manifest.1ad2078188fdf41de54e089c5c2de587.js": "/zebra/pasta/precache-manifest.1ad2078188fdf41de54e089c5c2de587.js",
+    "service-worker.js": "/zebra/pasta/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/zebra/pasta/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.16ae9124.chunk.css.map": "/zebra/pasta/static/css/main.16ae9124.chunk.css.map"
+  }
+}
