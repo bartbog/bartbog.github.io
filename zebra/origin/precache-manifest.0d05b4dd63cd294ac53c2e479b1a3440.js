@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7a28afbfa2fc7d960e7b94e41c45dbc",
+    "revision": "81084e796d8e4010387eabbbcb4374d0",
     "url": "/zebra/origin/index.html"
   },
   {

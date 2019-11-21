@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c63f1e39c3946383f2e47a160fb69a4a",
+    "revision": "2d49c8556cffa10e7f381b42c2d40589",
     "url": "/zebra/pasta/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zebra/pasta/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "fcbda2bd349fe0033fce",
+    "revision": "4f9fa3c4d721973df35a",
     "url": "/zebra/pasta/static/css/main.16ae9124.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zebra/pasta/static/js/2.25c80487.chunk.js"
   },
   {
-    "revision": "fcbda2bd349fe0033fce",
-    "url": "/zebra/pasta/static/js/main.8a352c86.chunk.js"
+    "revision": "4f9fa3c4d721973df35a",
+    "url": "/zebra/pasta/static/js/main.d9f35b3c.chunk.js"
   },
   {
     "revision": "03d1297fb74f3d825382",
