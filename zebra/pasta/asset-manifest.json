@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zebra/pasta/static/css/main.16ae9124.chunk.css",
-    "main.js": "/zebra/pasta/static/js/main.a5f8a46e.chunk.js",
-    "main.js.map": "/zebra/pasta/static/js/main.a5f8a46e.chunk.js.map",
+    "main.js": "/zebra/pasta/static/js/main.8a352c86.chunk.js",
+    "main.js.map": "/zebra/pasta/static/js/main.8a352c86.chunk.js.map",
     "runtime~main.js": "/zebra/pasta/static/js/runtime~main.4635e927.js",
     "runtime~main.js.map": "/zebra/pasta/static/js/runtime~main.4635e927.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/zebra/pasta/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.25c80487.chunk.js": "/zebra/pasta/static/js/2.25c80487.chunk.js",
     "static/js/2.25c80487.chunk.js.map": "/zebra/pasta/static/js/2.25c80487.chunk.js.map",
     "index.html": "/zebra/pasta/index.html",
-    "precache-manifest.e9778f2d0670005b4718c34f943eb503.js": "/zebra/pasta/precache-manifest.e9778f2d0670005b4718c34f943eb503.js",
+    "precache-manifest.849619a23d7b756731973c45babc94fa.js": "/zebra/pasta/precache-manifest.849619a23d7b756731973c45babc94fa.js",
     "service-worker.js": "/zebra/pasta/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/zebra/pasta/static/css/2.22a7d4ef.chunk.css.map",
     "static/css/main.16ae9124.chunk.css.map": "/zebra/pasta/static/css/main.16ae9124.chunk.css.map"
