@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zebra/pasta/precache-manifest.a2f3627b2d2bb7d63cbffd73a51d49a4.js"
+  "/zebra/pasta/precache-manifest.4befa28116b12a6feaa07f2e600f2002.js"
 );
 
 self.addEventListener('message', (event) => {
